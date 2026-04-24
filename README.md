@@ -1,5 +1,5 @@
 # Editor-de-texto-com-snippet
-[Link do editor de texto com snippt](https://renatoces.github.io/Editor-de-texto-com-snippet/)
+[Link do editor de texto com snippt](https://renatoces.github.io/Editor-de-texto-com-snippet/).
 Um editor de texto e código leve e funcional, desenvolvido puramente com HTML, CSS e JavaScript. Este projeto foi desenhado para ser rápido, organizado e expansível através de snippets personalizados.
 
 ## 🚀 Funcionalidades
