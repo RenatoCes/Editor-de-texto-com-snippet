@@ -1,5 +1,4 @@
 # Editor-de-texto-com-snippet
-# Web Code Editor com Sistema de Snippets
 
 Um editor de texto e código leve e funcional, desenvolvido puramente com HTML, CSS e JavaScript. Este projeto foi desenhado para ser rápido, organizado e expansível através de snippets personalizados.
 
