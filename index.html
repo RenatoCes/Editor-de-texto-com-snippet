@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Code Editor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="toolbar">
+        <input type="text" id="fileName" placeholder="nome.txt" value="arquivo.txt">
+        <button onclick="novoArquivo()">Novo</button>
+        <button onclick="document.getElementById('fileInput').click()">Abrir</button>
+        <button onclick="salvarArquivo()">Salvar</button>
+        <button onclick="document.getElementById('snippetInput').click()">Add Snippets</button>
+        
+        <input type="file" id="fileInput" style="display:none" onchange="abrirArquivo(event)">
+        <input type="file" id="snippetInput" style="display:none" onchange="carregarSnippets(event)">
+    </div>
+
+    <div class="editor-container">
+        <div id="lineNumbers">1</div>
+        <textarea id="editor" spellcheck="false" placeholder="Comece a digitar..."></textarea>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
